@@ -1,0 +1,26 @@
+{
+  "name": "3d-sapper",
+  "version": "0.0.1",
+  "description": "sapper 3d game",
+  "main": "src/index.tsx",
+  "repository": "https://github.com/patchwork-body/3d-sapper.git",
+  "author": "gugfug gugfug1@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "serve:dev": "next dev --port 8080"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.17",
+    "@types/react-dom": "^17.0.9",
+    "@types/three": "^0.131.0",
+    "prettier": "2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^7.0.6",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "three": "^0.131.3"
+  }
+}
